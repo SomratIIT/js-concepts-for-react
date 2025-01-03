@@ -21,4 +21,4 @@ const searchletter = products.filter(product=>product.name.includes('a'));
 //console.log(searchletter);
 
 const searchnew = products.find(product=>product.name.includes('a'));
-console.log(searchnew);
+// console.log(searchnew);
