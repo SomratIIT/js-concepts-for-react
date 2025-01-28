@@ -5,4 +5,4 @@
 const getGpa = marks => marks*25;
 
 
-console.log(getGpa(3.52));
+console.log(`My CGPA is ${getGpa(3.52)}%`);

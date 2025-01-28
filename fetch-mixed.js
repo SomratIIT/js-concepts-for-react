@@ -4,8 +4,13 @@ const student = {
     movies: ['Squid Game','Venom:Last Dance']
 }
 const studentJSON = JSON.stringify(student); 
-console.log(student);
-console.log(studentJSON);
+// console.log(student);
+// console.log(studentJSON);
 
 const againObject = JSON.parse(studentJSON);
-console.log(againObject);
+// console.log(againObject);
+
+/* Fetch */
+fetch('https://jsonplaceholder.typicode.com/users')
+.then(res=>res.json())
+.then(data=>console.log(data));

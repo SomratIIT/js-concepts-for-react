@@ -7,7 +7,10 @@ const products = [
     {name:'phone',price: 3000, brand :'realme',color: 'White'},
 
 ];
-
+for(const pro of products)
+{
+    console.log(pro.name);
+}
 const brands = products.map(p =>p.brand);
 //console.log(brands); 
 const prices = products.forEach(p => {
