@@ -16,6 +16,15 @@ for(const number of numbers)
 }
 const answer = multiply(10,10);
 console.log(`value is = ${answer}`); */
+
+//for (const pro of products){
+  //  console.log(pro.name);
+
+// const b = products.map(p=>p.brand);
+ //const overprice = products.forEach(ov =>console.log(ov.price));
+// const overprice = products.filter(ovr =>ovr.price);
+// console.log(b);
+
 const products = [
     {name:'laptop',price: 32000, brand :'lenovo',color: 'Silver'},
     {name:'phone',price: 7000, brand :'iphone',color: 'golden'},
@@ -23,11 +32,6 @@ const products = [
     {name:'phone',price: 3000, brand :'realme',color: 'White'},
 
 ];
-for (const pro of products){
-  //  console.log(pro.name);
-}
-const b = products.map(p=>p.brand);
-//const overprice = products.forEach(ov =>console.log(ov.price));
-const overprice = products.filter(ovr =>ovr.price);
-console.log(b);
 
+const newProducts = [...products,{name:'somrat',price: 4000, brand :'realme',color: 'brown'}]
+console.log(newProducts);
