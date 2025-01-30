@@ -33,5 +33,16 @@ const products = [
 
 ];
 
-const newProducts = [...products,{name:'somrat',price: 4000, brand :'realme',color: 'brown'}]
+
+const custom = products.filter(p=> p.name !== 'phone');
+console.log(custom);
+/* const newProducts = [...products,{name:'somrat',price: 4000, brand :'realme',color: 'brown'}]
 console.log(newProducts);
+
+const nkheli = newProducts.map(p=>p.name);
+
+console.log(nkheli);
+const pkheli = newProducts.forEach(p=>console.log(p.name));
+const bkheli = newProducts.filter(p=>p.name.includes('s'));
+
+console.log(bkheli); */
